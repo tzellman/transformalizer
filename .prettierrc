@@ -1,0 +1,42 @@
+printWidth: 120
+tabWidth: 4
+useTabs: false
+endOfLine: lf
+overrides:
+    - files:
+          - "*.ts"
+      options:
+          parser: "typescript"
+          arrowParens: always
+          bracketSpacing: true
+          semi: true
+          singleQuote: true
+          trailingComma: none
+    - files:
+          - "package.json"
+          - "package-lock.json"
+      options:
+          parser: "json"
+          singleQuote: false
+          trailingComma: none
+          printWidth: 80
+          tabWidth: 2
+    - files:
+          - "*.json"
+      options:
+          parser: "json"
+          singleQuote: false
+          trailingComma: none
+    - files:
+          - "*.md"
+      options:
+          parser: "markdown"
+    - files:
+          - "*.js"
+      options:
+          parser: "typescript"
+          arrowParens: always
+          bracketSpacing: true
+          semi: true
+          singleQuote: true
+          trailingComma: none

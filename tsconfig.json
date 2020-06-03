@@ -1,0 +1,29 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "incremental": true,
+        "lib": ["es6", "esnext.asynciterable"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noLib": false,
+        "noUnusedLocals": true,
+        "outDir": "./dist",
+        "preserveConstEnums": true,
+        "pretty": true,
+        "removeComments": true,
+        "rootDir": "lib",
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "strictNullChecks": true,
+        "target": "es2017",
+        "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
+    },
+    "exclude": ["node_modules", "dist", "test", "examples"]
+}
